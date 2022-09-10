@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando el total</title>
+    <!--Link a reset-->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!--Link a Hoja de estilos Css-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!--Link para estilo de fuente Oswald de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section>
+             <article>
+                <!--Contenedor De imagen y titulo del Producto-->
+              <div>
+                 <img src="assets/img/Laptop.jpeg" alt="Laptop_gamer">
+                <h1>Notebook Gamer Acer Predator</h1>
+                </div>
+                <!--Contenedor De imagen y titulo del Producto-->
+
+             <!--Contendor del formulario con sus input-->
+           <div id="contenedor_formulario">
+             <p>
+             <input type="number" id="cantidad" name="cantidad" min="0">
+             </p>
+                 <p>
+                     <input type="color" id="color"  name="color">
+                     </p>
+
+             <p>
+            <span id="precio"> Precio: $1.999.000</span>
+            </p>
+        <!--Boton calcular-->
+            <p>
+                <input type="button"    id="calculo"    name="calculo"  value="Calcular Total">
+            </p>      
+            <!--Boton calcular-->  
+            </div>
+          <!--Contendor del formulario con sus input-->
+    </article>
+<!--Contenedor de Total , Cantidad y color seleccionado-->
+   <section>
+        <p>Total:<span id="total"></span></p>
+        <p>Cantidad:<span id="cantidad_final"></span></p>
+        <p>Color:<span id="color_final"></span></p>
+         </section>
+<!--Contenedor de Total , Cantidad y color seleccionado-->
+        </section>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

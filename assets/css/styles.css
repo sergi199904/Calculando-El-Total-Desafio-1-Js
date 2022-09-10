@@ -1,0 +1,103 @@
+/*Estilos para el contenedor del menu*/
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+main > section{
+    width: 50%;
+    height: 700px;
+    margin: auto auto;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px black;
+}
+
+/*Estilos de posicionamiento de cotenedores*/
+
+main > section > article{
+    width: 60%;
+    height: 100%;
+    float: left;
+    background-color: #7BA238;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px black;
+}
+
+main > section > section{
+    width: 40%;
+    height: 100%;
+    float: left;
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Estilos maqueteadores para textos, inputs*/
+#color_final{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: crimson;
+    display:inline-block;
+}
+
+
+section>article>div{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    padding: 5px;
+    
+}
+
+    section > article > div >img{
+        height:100%;
+        width:90%;
+        object-fit: contain;
+        border-radius: 20px;
+    }
+
+    section>article>div>h1{
+        text-align: center;
+        color: white;
+    }
+    span#precio{
+        color: white;
+    }
+    p{padding: 4px;}
+    
+
+    /*Estilos para el boton de calcular*/
+
+#calculo{color: white;
+    background-color: #E2A30B;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.2em 1.0em;
+    border: 2px solid;
+    border-color: black;
+    transition: all 1s ease;
+    position: relative;
+    margin-top: 10px;
+}
+#calculo:hover {
+    background: #318aac;
+    color: #fff !important;
+    box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+    transition: all 0.2s ease;}
+
+
+ 
